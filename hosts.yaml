@@ -1,0 +1,6 @@
+csr1:
+  hostname: sandbox-iosxr-1.cisco.com
+  groups:
+    - cisco
+  data:
+    role: core

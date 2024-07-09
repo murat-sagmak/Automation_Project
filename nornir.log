@@ -1,0 +1,6 @@
+2024-07-08 13:56:29,175 -  nornir.core -     INFO -        run() - Running task 'get_device_status' with args {} on 1 hosts
+2024-07-08 13:57:33,318 -  nornir.core -     INFO -        run() - Running task 'get_device_status' with args {} on 1 hosts
+2024-07-08 14:06:50,753 -  nornir.core -     INFO -        run() - Running task 'get_device_status' with args {} on 1 hosts
+2024-07-08 14:06:59,713 -  nornir.core -     INFO -        run() - Running task 'get_device_status' with args {} on 1 hosts
+2024-07-08 14:07:05,417 -  nornir.core -     INFO -        run() - Running task 'get_device_status' with args {} on 1 hosts
+2024-07-08 14:07:11,150 -  nornir.core -     INFO -        run() - Running task 'get_device_status' with args {} on 1 hosts

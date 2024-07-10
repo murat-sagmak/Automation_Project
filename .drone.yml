@@ -7,5 +7,5 @@ steps:
   image: python
   commands:
   - pip install -r requirements.txt
-  - python3 backup_configs.py
+  - python3 monitor_network.py
 

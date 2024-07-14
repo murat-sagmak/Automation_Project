@@ -12,8 +12,8 @@ steps:
 - name: Run script
   image: python:3.9
   commands:
-  - echo "Running monitor_network.py"
-  - python monitor_network.py
+  - echo "Running network.py"
+  - python network.py
 
 - name: Debug
   image: python:3.9

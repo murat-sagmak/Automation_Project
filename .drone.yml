@@ -3,8 +3,22 @@ type: docker
 name: Python CI/CD
 
 steps:
-- name: Install and deploy
+- name: Install dependencies
   image: python:3.9
   commands:
+  - echo "Installing dependencies"
   - pip install -r requirements.txt
+
+- name: Run script
+  image: python:3.9
+  commands:
+  - echo "Running monitor_network.py"
   - python monitor_network.py
+
+- name: Debug
+  image: python:3.9
+  commands:
+  - echo "Listing files in the current directory"
+  - ls -la
+  - echo "Checking installed packages"
+  - pip list

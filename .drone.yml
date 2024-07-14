@@ -4,8 +4,7 @@ name: Python CI/CD
 
 steps:
 - name: Install and deploy
-  image: python
+  image: python:3.9
   commands:
   - pip install -r requirements.txt
-  - python3 monitor_network.py
-
+  - python monitor_network.py
